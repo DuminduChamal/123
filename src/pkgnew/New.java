@@ -21,6 +21,8 @@ public class New {
         New a = new New();
         a.setName("Pablo");
         a.setAge(43);
+        System.out.println(a.getName());
+        System.out.println(a.getAge());
         a.printDetails();
     }
     
@@ -33,6 +35,15 @@ public class New {
         this.age=age ;
     }
     
+    public String getName()
+    {
+        return this.name;
+    }
+    
+    public int getAge()
+    {
+        return this.age;
+    }
     
     public void printDetails()
     {
