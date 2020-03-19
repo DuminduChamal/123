@@ -11,8 +11,8 @@ package pkgnew;
  */
 public class New {
     
-    String name;
-    int age;
+    private String name;
+    private int age;
 
     /**
      * @param args the command line arguments
