@@ -19,12 +19,15 @@ public class New {
      */
     public static void main(String[] args) {
         New a = new New();
-        a.sayHBD("Alex");
+        
+        a.age = 34;
+        a.name = "Pablo";
+        a.printDetails();
     }
     
-    public static void sayHBD(String name)
+    public void printDetails()
     {
-        System.out.println("Happy Birthday " +name);
+        System.out.println("Name : " +name+" Age : "+age);
     }
 }
  
