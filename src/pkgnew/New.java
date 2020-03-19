@@ -10,12 +10,21 @@ package pkgnew;
  * @author ASUS
  */
 public class New {
+    
+    String name;
+    int age;
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        New a = new New();
+        a.sayHBD("Alex");
     }
     
+    public static void sayHBD(String name)
+    {
+        System.out.println("Happy Birthday " +name);
+    }
 }
+ 
