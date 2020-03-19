@@ -19,15 +19,24 @@ public class New {
      */
     public static void main(String[] args) {
         New a = new New();
-        
-        a.age = 34;
-        a.name = "Pablo";
+        a.setName("Pablo");
+        a.setAge(43);
         a.printDetails();
     }
     
+    public void setName(String name)
+    {
+        this.name=name;
+    }
+    public void setAge(int age)
+    {
+        this.age=age ;
+    }
+    
+    
     public void printDetails()
     {
-        System.out.println("Name : " +name+" Age : "+age);
+        System.out.println("Name : " +name+", Age : "+age);
     }
 }
  
