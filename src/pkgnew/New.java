@@ -21,8 +21,9 @@ public class New {
         New a = new New();
         a.setName("Warren");
         a.setAge(34);
-        System.out.println(a.getName());
-        System.out.println(a.getAge());
+        System.out.println();
+        System.out.println("Name : "+a.getName());
+        System.out.println("Age : "+a.getAge());
         System.out.println();
         a.printDetails();
     }
