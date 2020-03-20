@@ -26,7 +26,7 @@ public class New {
         a.printDetails();
     }
     
-    public void setName(String name)
+    public void settheName(String name)
     {
         this.name=name;
     }
@@ -35,7 +35,7 @@ public class New {
         this.age=age ;
     }
     
-    public String getName()
+    public String gettheName()
     {
         return this.name;
     }
