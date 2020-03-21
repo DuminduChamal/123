@@ -3,7 +3,7 @@ public class Game{
     {
         int numOfGuesses = 0;
         GameHelper helper = new GameHelper();
-        SimpleDotComTestDrive theDotCom = new SimpleDotComTestDrive();
+        SimpleDotCom theDotCom = new SimpleDotCom();
         int randomNum = (int)(Math.random()*5);
         int[] locations = {randomNum, randomNum+1, randomNum+2};
         theDotCom.setLocationCells(locations);

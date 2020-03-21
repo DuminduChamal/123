@@ -1,4 +1,3 @@
-package pkgnew.SimpleDotCom;
 
 public class SimpleDotCom{
     int numberOfHits=0;
