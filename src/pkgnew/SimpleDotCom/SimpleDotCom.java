@@ -1,13 +1,8 @@
 package pkgnew.SimpleDotCom;
 
-public class SimpleDotComTestDrive {
+public class SimpleDotCom{
     int numberOfHits=0;
     int [] locationCells;
-    public static void main (String[] args)
-    {
-        // int[] locationCells = new int[7];
-        SimpleDotComTestDrive dot = new SimpleDotComTestDrive();
-    }
 
     public String checkYourself(String stringGuess){
         int guess = Integer.parseInt(stringGuess);
