@@ -7,7 +7,7 @@ public class DotCom
     private ArrayList<String> locationCells;
     private String name;
 
-    public void setLocationCells(final ArrayList<String> locs)
+    public void setLocationCells(ArrayList<String> locs)
     {
         locationCells = locs;
     }
@@ -17,10 +17,10 @@ public class DotCom
         name = n;
     }
 
-    public String checkYourself(final String userInput)
+    public String checkYourself(String userInput)
     {
         String result = "miss";
-        final int index = locationCells.indexOf(userInput);
+        int index = locationCells.indexOf(userInput);
         if(index >= 0)
         {
             locationCells.remove(index);
