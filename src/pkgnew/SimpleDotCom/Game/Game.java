@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Game{
     public static void main (String[] args)
     {
@@ -5,7 +7,11 @@ public class Game{
         GameHelper helper = new GameHelper();
         SimpleDotCom theDotCom = new SimpleDotCom();
         int randomNum = (int)(Math.random()*5);
-        int[] locations = {randomNum, randomNum+1, randomNum+2};
+        // String num = String.valueOf(randomNum);
+        ArrayList<Integer> locations = new ArrayList<Integer>();
+        locations.add(randomNum);
+        locations.add(randomNum+1);
+        locations.add(randomNum+2);
         theDotCom.setLocationCells(locations);
         boolean isAlive = true;
 
