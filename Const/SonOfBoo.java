@@ -20,15 +20,15 @@ class SonOfBoo extends Boo
 
     // }
 
-    public SonOfBoo(String a, String b, String c)
-    {
-        super(a, b);
-    }
-
-    // public SonOfBoo(int i, int j)
+    // public SonOfBoo(String a, String b, String c)
     // {
-    //     super("Man", j);
+    //     super(a, b);
     // }
+
+    public SonOfBoo(int i, int j)
+    {
+        super("Man", j);
+    }
 
     // public SonOfBoo(int i, int x, int y)
     // {
