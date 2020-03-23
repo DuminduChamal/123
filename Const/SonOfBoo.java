@@ -30,9 +30,9 @@ class SonOfBoo extends Boo
         super("Man", j);
     }
 
-    // public SonOfBoo(int i, int x, int y)
-    // {
-    //     super(i, "Star");
-    // }
+    public SonOfBoo(int i, int x, int y)
+    {
+        super(i, "Star");
+    }
 
 }
