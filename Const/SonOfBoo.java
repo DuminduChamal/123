@@ -10,10 +10,10 @@ class SonOfBoo extends Boo
         super("Fred");
     }
 
-    // public SonOfBoo(String s)
-    // {
-    //     super(42);
-    // }
+    public SonOfBoo(String s)
+    {
+        super(42);
+    }
 
     // public SonOfBoo(int i, String s)
     // {
