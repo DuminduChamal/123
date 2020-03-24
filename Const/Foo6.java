@@ -1,6 +1,6 @@
-public class Foo5
+public class Foo6
 {
-    static final int x =12;
+    int x =12;
 
     public void go(final int x)
     {
