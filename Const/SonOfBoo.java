@@ -1,10 +1,15 @@
-class SonOfBoo extends Boo
+public class SonOfBoo extends Boo
 {
+    // public SonOfBoo()
+    // {
+    //     super("boo");
+    // }
     public SonOfBoo()
     {
-        super("boo");
+        System.out.println("SonOFBoo created");
     }
-
+    
+    
     public SonOfBoo(int i)
     {
         super("Fred");
@@ -34,5 +39,10 @@ class SonOfBoo extends Boo
     // {
     //     super(i, "Star");
     // }
+
+    public static void main(String[] args)
+    {
+        SonOfBoo s = new SonOfBoo();
+    }
 
 }

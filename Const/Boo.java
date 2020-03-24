@@ -1,5 +1,10 @@
 public class Boo
 {
+    public Boo()
+    {
+
+    }
+    
     public Boo(int i)
     {
 
@@ -12,6 +17,6 @@ public class Boo
 
     public Boo(String s, int i)
     {
-        
+
     }
 }
