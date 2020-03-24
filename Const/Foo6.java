@@ -9,7 +9,7 @@ public class Foo6
 
     public static void main(String[] args)
     {
-        Foo5 f5 = new Foo5();
-        f5.go(10);
+        Foo6 f6 = new Foo6();
+        f6.go(10);
     }
 }
