@@ -19,14 +19,14 @@ class InnerButton
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         b = new JButton("A");
-        b.addActionListener(new BLis());
+        b.addActionListener(new BList());
 
         frame.getContentPane().add(BorderLayout.SOUTH, b);
         frame.setSize(200, 100);
         frame.setVisible(true);
     }
 
-    class BLis implements ActionListener
+    class BList implements ActionListener
     {
         public void actionPerformed(ActionEvent e)
         {
