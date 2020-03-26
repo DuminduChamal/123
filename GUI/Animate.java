@@ -16,7 +16,7 @@ public class Animate
     {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        MyDrawP drawP = new MyDrawP;
+        MyDrawP drawP = new MyDrawP();
         frame.getContentPane().add(drawP);
         frame.setSize(500,270);
         frame.setVisible(true);
@@ -30,9 +30,19 @@ public class Animate
                 Thread.sleep(50);
             }
             catch(Exception e)
-            {
+            {}
+        }
+    }
+    class MyDrawP extends JPanel
+    {
 
-            }
+        public void paintComponent(Graphics g)
+        {
+            g.setColor(Color.white);
+            g.fillRect(0,0,500,250);
+
+            g.setColor(Color.blue);
+            g.fillRect(x,y,500-x*2,250-y*2);
         }
     }
 }
