@@ -34,11 +34,11 @@ public class SortMountains
         System.out.println("As entered:\n"+mtn);
 
         NameCompare nc = new NameCompare();
-        Collection.sort(mtn,nc);
+        Collections.sort(mtn,nc);
         System.out.println("By name:\n"+mtn);
 
         HeightCompare hc = new HeightCompare();
-        Collection.sort(mtn,hc);
+        Collections.sort(mtn,hc);
         System.out.println("By height:\n"+mtn);
     }
 }
