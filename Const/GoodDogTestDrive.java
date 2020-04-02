@@ -12,6 +12,7 @@ public class GoodDogTestDrive {
 
         System.out.println("Dog one : "+one.getSize());
         System.out.println("Dog two : "+two.getSize());
+        System.out.println("Dog three : "+three.getSize());
 
         one.bark();
         two.bark();
