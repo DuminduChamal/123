@@ -1,4 +1,4 @@
-Live Demo
+
 import java.util.Date;
 public class DateDemo {
 
