@@ -6,7 +6,7 @@ class ArrayDemo2 {
    public static void main(String args[]){
       String []b={"Apple","Mango","Orange"};
       System.out.println("Before Function Call    "+b[0]);
-      ArrayDemo.passByReference(b);
+    //   ArrayDemo.passByReference(b);
       System.out.println("After Function Call    "+b[0]);
    }
 }
