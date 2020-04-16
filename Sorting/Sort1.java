@@ -1,4 +1,4 @@
-/ A sample Java program to demonstrate working of 
+// A sample Java program to demonstrate working of 
 // Arrays.sort(). 
 // It by default sorts in ascending order. 
 import java.util.Arrays; 
