@@ -15,9 +15,7 @@ public class Example4 {
      .parallel() 
      .forEach(n->System.out.println(n)); 
 
-     /* forEachOrdered - the output would always be in this order: 
-      * Maggie, Michonne, Merle 
-      */ 
+     
      System.out.println("Print using forEachOrdered"); 
      names.stream()  
      .filter(f->f.startsWith("M"))  
